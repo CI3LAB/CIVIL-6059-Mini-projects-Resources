@@ -26,7 +26,7 @@ The repository contains the guidance and initial code for the project 1 in CIVL6
 
 - This step is done with these two buttons (Exteral Tools and RevitLookup) appear
 
-  <img src="./README_FIG/revit_config.png" style="zoom:40%;" />
+  <img src="./README_FIG/revit_config.png" style="zoom20%;" />
 
 ### 2. Microsoft Visual Studio
 
@@ -44,7 +44,7 @@ The repository contains the guidance and initial code for the project 1 in CIVL6
 
     - After download, there are a list of workloads from which the following two options are required
 
-      <img src="./README_FIG/vs_workloads.png" style="zoom:30%;" />
+      <img src="./README_FIG/vs_workloads.png" style="zoom:20%;" />
 
 #### 2.2 Import of RevitAPI.dll and RevitAPIUI.dll
 
@@ -52,25 +52,25 @@ The repository contains the guidance and initial code for the project 1 in CIVL6
 
 - Without these two dll references, there will be errors in using RevitAPI
 
-  <img src="./README_FIG/error_wo_ref.png" style="zoom:30%;" />
+  <img src="./README_FIG/error_wo_ref.png" style="zoom:20%;" />
 
 - To add the references, you need to
 
   - Add references
 
-    <img src="./README_FIG/add_ref.png" style="zoom:30%;" />
+    <img src="./README_FIG/add_ref.png" style="zoom:20%;" />
 
   - Choose the RevitAPI.dll and RevitAPIUI.dll in your Revit folder
 
-    <img src="./README_FIG/add_ref_2.png" style="zoom:30%;" />
+    <img src="./README_FIG/add_ref_2.png" style="zoom:20%;" />
 
   - Add them to your refenrences
 
-    <img src="./README_FIG/add_ref_3.png" style="zoom:30%;" />
+    <img src="./README_FIG/add_ref_3.png" style="zoom:20%;" />
 
   - This step is done when there is no longer error when you import RevitAPI
 
-    <img src="./README_FIG/add_ref_4.png" style="zoom:40%;" />
+    <img src="./README_FIG/add_ref_4.png" style="zoom:20%;" />
 
 ### 3. Copilot (Optional)
 
@@ -81,11 +81,11 @@ The repository contains the guidance and initial code for the project 1 in CIVL6
 
   - Firstly, add the extension of Copilot through Manage Extensions
 
-    <img src="./README_FIG/copilot.png" style="zoom:40%;" />
+    <img src="./README_FIG/copilot.png" style="zoom:20%;" />
 
   - Secondly, add the extension after searching for Copilot
 
-    <img src="./README_FIG/copilot_1.png" style="zoom:30%;" />
+    <img src="./README_FIG/copilot_1.png" style="zoom:20%;" />
 
   - You can also add other extensions to improve your efficiency
 
@@ -108,51 +108,51 @@ The repository contains the guidance and initial code for the project 1 in CIVL6
 
 - Click the Create a new project button
 
-  <img src="./README_FIG/create_project.png" style="zoom:30%;" />
+  <img src="./README_FIG/create_project.png" style="zoom:20%;" />
 
 - Choose the Class Library (.NET Framework)
 
-  <img src="./README_FIG/create_project_1.png" style="zoom:30%;" />
+  <img src="./README_FIG/create_project_1.png" style="zoom:20%;" />
 
 - Configure the project
 
-  <img src="./README_FIG/create_project_2.png" style="zoom:30%;" />
+  <img src="./README_FIG/create_project_2.png" style="zoom:20%;" />
 
 #### 2.2 The "Hello World" program
 
 - Code for the program
 
-<img src="./README_FIG/hello_world.png" style="zoom:30%;" />
+<img src="./README_FIG/hello_world.png" style="zoom:20%;" />
 
 - Execute the program in the VS studio
 
-  <img src="./README_FIG/hello_world_2.png" style="zoom:30%;" />
+  <img src="./README_FIG/hello_world_2.png" style="zoom:20%;" />
 
 - Invoke your plug-in in the Revit environment
 
   - Click the External Tools and choose Add-In Manager (Manual Mode)
 
-    <img src="./README_FIG/hello_world_3.png" style="zoom:30%;" />
+    <img src="./README_FIG/hello_world_3.png" style="zoom:20%;" />
 
   - Click Load button and pick the corresponding dll file  of your program
 
-    <img src="./README_FIG/hello_world_4.png" style="zoom:30%;" />
+    <img src="./README_FIG/hello_world_4.png" style="zoom:20%;" />
 
   - Select the dll file with the same name as your project
 
-  <img src="./README_FIG/hello_world_5.png" style="zoom:25%;" />
+  <img src="./README_FIG/hello_world_5.png" style="zoom:20%;" />
 
   - Run the selected dll file
 
-    <img src="./README_FIG/hello_world_6.png" style="zoom:30%;" />
+    <img src="./README_FIG/hello_world_6.png" style="zoom:20%;" />
 
   - Either is ok
 
-    <img src="./README_FIG/hello_world_7.png" style="zoom:30%;" />
+    <img src="./README_FIG/hello_world_7.png" style="zoom:20%;" />
 
   - The program can now say "Hello World"
 
-    <img src="./README_FIG/hello_world_8.png" style="zoom:30%;" />
+    <img src="./README_FIG/hello_world_8.png" style="zoom:20%;" />
 
 # Revit Secondary Development for MiC floorplan Generation and Configuration
 
@@ -203,7 +203,7 @@ The objective of this paper is to utilize basic graph elements to represent iden
 
   - Attributes for the module, which can represent a module uniquely. the `document` is the context where your model exists, the list of `points` are the four boundary points of the module, the `level` represents the base level of the floor of the module, and the `name` indicates the name of the module
 
-    <img src="./README_FIG/module_attributes.png" style="zoom:40%;" />
+    <img src="./README_FIG/module_attributes.png" style="zoom:20%;" />
 
   - Two constructor function for constructing a new module
 
@@ -233,7 +233,7 @@ The objective of this paper is to utilize basic graph elements to represent iden
 
   - Attributes for a room, which can represent a module uniquely. the `document` is the context where your model exists, `central_point` represents the central point of a room, the list of `points` are the four boundary points of the room, the `level` represents the base level of the floor of the room, and the `name` indicates the name of the room
 
-    <img src="./README_FIG/room_attributes.png" style="zoom:40%;" />
+    <img src="./README_FIG/room_attributes.png" style="zoom:20%;" />
 
   - Five constructor function for constructing a new room
     - `public Room(Document document, Module module, Level level, string name)`, which constructs a Room class in a given module (this room takes up all the space of the module)
@@ -292,17 +292,17 @@ The objective of this paper is to utilize basic graph elements to represent iden
 
 - Code in `CodeAgent/MainClass.cs` for this example:
 
-  <img src="./README_FIG/example_1.png" style="zoom:40%;" />
+  <img src="./README_FIG/example_1.png" style="zoom:20%;" />
 
 - After execute this example in the VS studio and Revit, the corresponding MiC floorplan was generated as follow (Floor plans view and 3D view)
 
   - Floor plans view
 
-    <img src="./README_FIG/example_2.png" style="zoom:40%;" />
+    <img src="./README_FIG/example_2.png" style="zoom:20%;" />
 
   - 3D view
 
-    <img src="./README_FIG/example_3.png" style="zoom:40%;" />
+    <img src="./README_FIG/example_3.png" style="zoom:20%;" />
 
 # Integration of Large Language Models (LLMs)
 
@@ -324,11 +324,11 @@ LLMs can serve as intermediary agent between users and BIM authoring software (R
 
 - Code of the module
 
-<img src="./README_FIG/llm_help.png" style="zoom:40%;" />
+<img src="./README_FIG/llm_help.png" style="zoom:20%;" />
 
 - Executed result in Revit
 
-  <img src="./README_FIG/llm_help_2.png" style="zoom:40%;" />
+  <img src="./README_FIG/llm_help_2.png" style="zoom:20%;" />
 
 - Now a user gives a new requirement to additional generation and configuration
 
@@ -490,7 +490,7 @@ LLMs can serve as intermediary agent between users and BIM authoring software (R
 
 - Executed result in Revit
 
-  <img src="./README_FIG/llm_help_3.png" style="zoom:40%;" />
+  <img src="./README_FIG/llm_help_3.png" style="zoom:20%;" />
 
 - Correct generation and configuration was made
 
