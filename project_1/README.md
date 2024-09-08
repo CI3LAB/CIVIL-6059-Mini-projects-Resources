@@ -6,7 +6,7 @@ The repository contains the guidance and initial code for the project 1 in CIVL6
 
 ### 1. Autodesk Revit
 
-- The carrier of this project, where all the works are shown.
+- The carrier of this project, where all the works are shown
 
 #### 1.1 Installation
 
@@ -34,7 +34,7 @@ The repository contains the guidance and initial code for the project 1 in CIVL6
 
 #### 2.1 Installation
 
-- Download fromhttps://visualstudio.microsoft.com/zh-hans/downloads/
+- Download from https://visualstudio.microsoft.com/zh-hans/downloads/
 
   - Using the Community version which can be free downloaded
 
