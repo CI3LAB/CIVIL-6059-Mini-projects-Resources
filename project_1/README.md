@@ -349,7 +349,7 @@ LLMs can serve as intermediary agent between users and BIM authoring software (R
   - Initial code of current floorplan (provide code basis of the initial floorplan for LLMs)
 
     - ```
-      he "Execute" function is the primary code body that creates floors for modules enclosed by walls and defines the rooms. The function is as follows:
+      The "Execute" function is the primary code body that creates floors for modules enclosed by walls and defines the rooms. The function is as follows:
       """
       public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
       {
