@@ -201,13 +201,13 @@ The objective of this paper is to utilize basic graph elements to represent iden
 
 - The code in `CodeAgent/Module.cs` provides a initial implementation for MiC module, which includes
 
-  - Attributes for the module, which can represent a module uniquely. the `document` is the context where your model exists, the list of `points` are the four boundary points of the module, the `level` represents the base level of the floor of the module, and the `name` indicates the name of the module
+  - Attributes for the module, which can represent a module uniquely. The `document` is the context where your model exists, the list of `points` are the four boundary points of the module, the `level` represents the base level of the floor of the module, and the `name` indicates the name of the module
 
     <img src="./README_FIG/module_attributes.png" style="zoom:20%;" />
 
   - Two constructor functions for constructing a new module
 
-    - `public Module(Document document, UV point_1, UV point_2, UV point_3, UV point_4, Level level, string name)`, which constructs a Module class given four boudary points
+    - `public Module(Document document, UV point_1, UV point_2, UV point_3, UV point_4, Level level, string name)`, which constructs a Module class given four boundary points
     - `public Module(Document document, Module module_1, Module module_2)`, which merges two existing Module classes into one new Module class 
 
   - Several functions in the Module class
