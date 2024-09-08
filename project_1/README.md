@@ -507,7 +507,7 @@ LLMs can serve as intermediary agent between users and BIM authoring software (R
 
 - Define modules, rooms, and their relationships in our experimental environment based on the paper (https://www.sciencedirect.com/science/article/pii/S0926580523004004)
 - Fix the bug that ignores the wall volume
-- Establish the initial MiC floorplan based on one or several floorplans on the website (https://www.bd.gov.hk/en/resources/codes-and-references/modular-integrated-construction/mic_acceptedList.html)
+- Establish the initial MiC floorplan using code based on one or several floorplans on the website (https://www.bd.gov.hk/en/resources/codes-and-references/modular-integrated-construction/mic_acceptedList.html), which means that users can make desired configurations with natural language on current well-designed MiC floorplans
 - Optimize the prompt to improve the performance of LLMs
 - Make some comparisons on different LLMs focusing on various aspects
   - For example
