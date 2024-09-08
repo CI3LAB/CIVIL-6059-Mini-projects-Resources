@@ -346,7 +346,7 @@ LLMs can serve as intermediary agent between users and BIM authoring software (R
       The flat's floorplan is situated within a two-dimensional coordinate grid, consisting of two modules represented by floors and surrounded walls. Since there lacks a method to represent modules in the Revit environment, each module is represented as a floor in this task. The extent of a floor is the extent of the corresponding module. Points on the floorplan are denoted as (x, y), and there are currently eight points. All numerical values are in feet.
       ```
 
-  - Intial code of current floorplan (provide code basis of the initial floorplan for LLMs)
+  - Initial code of current floorplan (provide code basis of the initial floorplan for LLMs)
 
     - ```
       he "Execute" function is the primary code body that creates floors for modules enclosed by walls and defines the rooms. The function is as follows:
