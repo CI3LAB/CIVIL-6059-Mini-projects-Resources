@@ -1,6 +1,6 @@
 # Introduction
 
-The repository contains the guidance and initial code for the project 1 in CIVL6059.
+The repository contains the guidance and initial code for the project 1 in CIVL6059
 
 # Preliminaries
 
