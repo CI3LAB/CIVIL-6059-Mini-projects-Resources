@@ -336,7 +336,7 @@ LLMs can serve as intermediary agent between users and BIM authoring software (R
 
 #### 3.2 Prompt engineering to guide LLMs to make configurations in respond to the user's requirement
 
-- Prompt engineering to encapsulate all required information, the prompt include the following key points
+- A specific prompt was designed to encapsulate all required information, the prompt include the following key points
 
   - Task description (provide appropriate guidance for LLMs)
 
