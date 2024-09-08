@@ -414,7 +414,7 @@ LLMs can serve as intermediary agent between users and BIM authoring software (R
       """
       ```
 
-  - As some tasks including mutliple steps may be hard for LLMs, you can also provide some hints for them
+  - As some tasks including multiple steps may be hard for LLMs, you can also provide some hints for them
 
     - For example:
 
