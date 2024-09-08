@@ -96,7 +96,9 @@ The repository contains the guidance and initial code for the project 1 in CIVL6
 - Revit secondary develoment customize and extend Autodesk Revit's capabilities using its API (Application Programming Interface). This process allows developers to automate tasks, create custom tools, or integrate Revit with other software systems to enhance functionality for specific workflows. Typically, Revit secondary development is done using C# and .NET framework, with Revit's API providing access to elements like building components, geometry, and project data
 - A tutorial to C#: https://www.runoob.com/csharp/csharp-variables.html
   - However, with the help of intial code and Copilot, you don't need to master C# completely
-- RevitAPI document: in this ducument, you can search and view all the classes and functions provided by RevitAPI
+- RevitAPI document: https://www.revitapidocs.com/2022/
+  - In this ducument, you can search and view all the classes and functions provided by RevitAPI
+
 - A good tutorial to help you learn Revit secondary development: https://www.bilibili.com/video/BV1jt411E7As/?spm_id_from=333.999.0.0
   - That's how I learn Revit secondary development
 
