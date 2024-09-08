@@ -205,7 +205,7 @@ The objective of this paper is to utilize basic graph elements to represent iden
 
     <img src="./README_FIG/module_attributes.png" style="zoom:20%;" />
 
-  - Two constructor function for constructing a new module
+  - Two constructor functions for constructing a new module
 
     - `public Module(Document document, UV point_1, UV point_2, UV point_3, UV point_4, Level level, string name)`, which constructs a Module class given four boudary points
     - `public Module(Document document, Module module_1, Module module_2)`, which merges two existing Module classes into one new Module class 
@@ -227,7 +227,7 @@ The objective of this paper is to utilize basic graph elements to represent iden
 
 #### 2.3 The Room class
 
-- A room is a clear definition of an area of space. In Revit, it is set by using the room tag which creates a room bounded by model elements (e.g., walls, floors, and ceilings) and separation lines. As I haven't found an approach to create separation lines in Revit using RevitAPI, all the rooms are separated by walls now.
+- A room is a clear definition of an area of space. In Revit, it is set by using the room tag which creates a room bounded by model elements (e.g., walls, floors, and ceilings) and separation lines. As I haven't found an approach to create separation lines in Revit using RevitAPI, all the rooms are separated by walls now
 
 - The code in `CodeAgent/Room.cs` provides a initial implementation for a room, which includes
 
@@ -235,7 +235,7 @@ The objective of this paper is to utilize basic graph elements to represent iden
 
     <img src="./README_FIG/room_attributes.png" style="zoom:20%;" />
 
-  - Five constructor function for constructing a new room
+  - Five constructor functions for constructing a new room
     - `public Room(Document document, Module module, Level level, string name)`, which constructs a Room class in a given module (this room takes up all the space of the module)
     - `public Room(Document document, Module module, UV point_1, UV point_2, UV point_3, UV point_4, Level level, string name)`, which constructs a Room class in the module given four boundary points
     - `public Room(Document document, Module module, UV central_point, double north_south_length, double east_west_length, Level level, string name)`, which constructs a Room class given the located module, the central point, the north-south length, and the east-west length of the room
