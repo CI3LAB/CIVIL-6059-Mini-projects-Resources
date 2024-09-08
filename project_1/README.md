@@ -231,7 +231,7 @@ The objective of this paper is to utilize basic graph elements to represent iden
 
 - The code in `CodeAgent/Room.cs` provides a initial implementation for a room, which includes
 
-  - Attributes for a room, which can represent a module uniquely. the `document` is the context where your model exists, `central_point` represents the central point of a room, the list of `points` are the four boundary points of the room, the `level` represents the base level of the floor of the room, and the `name` indicates the name of the room
+  - Attributes for a room, which can represent a room uniquely. the `document` is the context where your model exists, `central_point` represents the central point of a room, the list of `points` are the four boundary points of the room, the `level` represents the base level of the floor of the room, and the `name` indicates the name of the room
 
     <img src="./README_FIG/room_attributes.png" style="zoom:20%;" />
 
