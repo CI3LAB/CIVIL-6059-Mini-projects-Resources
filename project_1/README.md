@@ -499,8 +499,8 @@ LLMs can serve as intermediary agent between users and BIM authoring software (R
 ### 1. Issues in Current Implementation
 
 - How to define the modules and relationships formally in our experimental environment based on the descriptions provided in the paper (https://www.sciencedirect.com/science/article/pii/S0926580523004004)
-- In the first example, both rooms should have an area of 20 square meters. However, since I did not consider the volume of the walls, their areas were reduced to 16 square meters. How to define this precisely remains a problem
-- The current representation of the intial module in the example appears somewhat simple. How can we refine it by integrating the existing MiC floorplan (https://www.bd.gov.hk/en/resources/codes-and-references/modular-integrated-construction/mic_acceptedList.html)
+- In the first example, both rooms should have an area of 20 square meters. However, since I did not consider the volume of the walls, their areas were reduced to 16 square meters. How to define the geometric feature precisely remains a problem
+- The current representation of the initial module in the example appears somewhat simple. How can we refine it by integrating the existing MiC floorplan (https://www.bd.gov.hk/en/resources/codes-and-references/modular-integrated-construction/mic_acceptedList.html)
 - Are their any prompt engineering approaches to improve the performance of LLMs (e.g., Chain-of-Thought prompting, which divides a complicated task into several simpler task and address a problem step by step)
 
 ### 2. What you can do
