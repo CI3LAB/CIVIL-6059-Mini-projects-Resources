@@ -21,7 +21,7 @@ The repository contains the guidance and initial code for the project 1 in CIVL6
 
 - Key elements
 
-  - RevitLookup: view and navigate BIM element parameters, properties and relationships, which can assist your development (Recommend the RevitLookup-2022.3.8-SingleUser.msi version)
+  - RevitLookup: view and navigate BIM element parameters, properties and relationships, which can assist your development (Recommend the RevitLookup-2022.3.8-SingleUser.msi version). Link: https://github.com/jeremytammik/RevitLookup/releases/tag/2025.0.8
   - Add-In Manager: where you can open and debug the plug-in you have written
 
 - This step is done with these two buttons (Exteral Tools and RevitLookup) appear
@@ -522,3 +522,4 @@ LLMs can serve as intermediary agent between users and BIM authoring software (R
     - ......
 
 - Besides the issues mentioned above, you can also have some interesting tries, for example, modify the material or color of an element (e.g., wall, floor, and ceiling)
+
